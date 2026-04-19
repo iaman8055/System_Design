@@ -33,9 +33,11 @@ class HeightUp extends CharacterDecorator{
 
 }
 class GunPowerUp extends CharacterDecorator{
-    public GunPowerUp(Character c){
+    public GunPowerUp(Character c) {
         super(c);
     }
+
+
 
     @Override
     public String getabilities() {
